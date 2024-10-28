@@ -1,0 +1,68 @@
+/* Modifications for threading; tested under bbp-theme-compat and bbp-twentyten. */
+#bbpress-forums div.reply.even div.even,
+#bbpress-forums div.reply.even ul.even,
+#bbpress-forums div.reply.even div.odd,
+#bbpress-forums div.reply.even ul.odd {
+	background-color: #fff;
+}
+
+#bbpress-forums div.reply.odd div.odd,
+#bbpress-forums div.reply.odd ul.odd,
+#bbpress-forums div.reply.odd div.even,
+#bbpress-forums div.reply.odd ul.even {
+	background-color: #fbfbfb;
+}
+
+#bbpress-forums .replylist {
+	list-style: none;
+	margin: 0;
+}
+#bbpress-forums .replylist table,
+#bbpress-forums .replylist tbody,
+#bbpress-forums .replylist tr,
+#bbpress-forums .replylist td {
+	border-collapse: collapse;
+}
+#bbpress-forums .replylist ul.children {
+	list-style: none;
+	margin: 0 0 0 2.0em ;
+}
+#bbpress-forums .replylist li,
+#bbpress-forums .replylist li div.reply {
+	padding-bottom: 0;
+}
+#bbpress-forums table.bbp-replies,
+#bbpress-forums .replylist table.bbp-replies {
+	margin: -1px 0 0 0;
+}
+#bbpress-forums .replylist .ucc-bbp-in-reply-to {
+	padding: 0 1.625em 1.625em 1.625em;
+	border-top: 0px;
+	text-align: right;
+}
+#bbpress-forums .replylist .bbp-reply-form {
+	margin-bottom: 0;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	border: 0;
+	width: auto;
+	position: relative;
+}
+#bbpress-forums .replylist #cancel-in-reply-to-link {
+	position: absolute;
+	right: 1.625em;
+	top: 0.7em;
+	padding: 0 5px;
+	font-size: 10px;
+	line-height: 16px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #1982d1;
+	color: #fff;
+	text-transform: uppercase;
+}
+#bbpress-forums fieldset.bbp-form, 
+#container fieldset.bbp-form, 
+#wrapper fieldset.bbp-form {
+	border-color: #ddd;
+}
